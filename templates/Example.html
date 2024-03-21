@@ -9,44 +9,28 @@
 
 <body>
     <h1>Student Feedback Form</h1>
-    <form action="#" method="post">
+    <form method="post">
+        {{ form.csrf_token }}
         <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            {{ form.name.label }} {{ form.name }}
         </div>
         <div>
-            <label for="course">Course:</label>
-            <input type="text" id="course" name="course" required>
+            {{ form.course.label }} {{ form.course }}
         </div>
         <div>
-            <label for="short-answer">Short-form Answer:</label>
-            <textarea id="short-answer" name="short-answer" rows="2" required></textarea>
+            {{ form.short_answer.label }} {{ form.short_answer }}
         </div>
         <div>
-            <label for="long-answer">Long-form Answer:</label>
-            <textarea id="long-answer" name="long-answer" rows="5" required></textarea>
+            {{ form.long_answer.label }} {{ form.long_answer }}
         </div>
         <div>
-            <label for="satisfaction">Overall Satisfaction:</label>
-            <select id="satisfaction" name="satisfaction" required>
-                <option value="" disabled selected>Select Satisfaction Level</option>
-                <option value="very-satisfied">Very Satisfied</option>
-                <option value="satisfied">Satisfied</option>
-                <option value="neutral">Neutral</option>
-                <option value="unsatisfied">Unsatisfied</option>
-                <option value="very-unsatisfied">Very Unsatisfied</option>
-            </select>
+            {{ form.satisfaction.label }} {{ form.satisfaction }}
         </div>
         <div>
-            <label for="recommend">Would you recommend this course to others?</label><br>
-            <input type="radio" id="recommend-yes" name="recommend" value="yes" required>
-            <label for="recommend-yes">Yes</label><br>
-            <input type="radio" id="recommend-no" name="recommend" value="no">
-            <label for="recommend-no">No</label>
+            {{ form.recommend.label }} {{ form.recommend }}
         </div>
         <div>
-            <label for="improvements">Suggestions for Improvement:</label>
-            <textarea id="improvements" name="improvements" rows="3"></textarea>
+            {{ form.improvements.label }} {{ form.improvements }}
         </div>
         <button type="submit">Submit</button>
     </form>
