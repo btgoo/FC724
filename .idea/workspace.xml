@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c094456b-00a3-464f-880d-08107bad4f1c" name="Changes" comment="1st update: libraries assigned.">
+    <list default="true" id="c094456b-00a3-464f-880d-08107bad4f1c" name="Changes" comment="Second update: putting flask into action, connecting the html file with flask file.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +73,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711061653275</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second update: putting flask into action, connecting the html file with flask file.">
+      <option name="closed" value="true" />
+      <created>1711062254271</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711062254271</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st update: libraries assigned." />
-    <option name="LAST_COMMIT_MESSAGE" value="1st update: libraries assigned." />
+    <MESSAGE value="Second update: putting flask into action, connecting the html file with flask file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second update: putting flask into action, connecting the html file with flask file." />
   </component>
 </project>
